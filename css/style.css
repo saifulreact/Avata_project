@@ -1,44 +1,108 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-/* ========================== common css part start here ====================================== */
-/* ========================== common css part end here ====================================== */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');/* ========================== common css part start here ====================================== */
+/* ========================== common css part  here ====================================== */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+
+}
 ul,ol{
     list-style: none;
-}
-body{
-    background: rgb(183, 214, 183);
 }
 a{
     text-decoration: none;
     display: inline-block;
 }
-
-/* ========================== navbar css part start here ====================================== */
-ul li a{
-    transition: all linear .3s;
-}
-ul li a:hover{
-    color: #FF9600 !important;
-
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
 }
 
-.menu_btn {
-    padding: 20px 50px;
-    background: #FF9600;
+
+
+:root{
+    --font-ibm: "IBM Plex Sans", sans-serif;
+}
+
+.common_btn a{
+    font-size: 18px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family:var(--font-ibm) ;
+     padding: 20px 50px;
+    background: #FF9600 !important;
     border-radius: 10px;
 
 }
 
-.menu_btn a{
-    font-size: 18px;
-    font-weight: bold;
-    color: #FFFFFF;
-    font-family: "IBM Plex Sans", sans-serif;
-
+ul,ol{
+    list-style: none;
 }
 
-/* ========================== navbar css part end here ====================================== */
-/* ========================== common css part start here ====================================== */
+a{
+    text-decoration: none;
+    display: inline-block;
+}
 /* ========================== common css part end here ====================================== */
+
+/* ========================== navbar css part start here ====================================== */
+.main_menu_bar ul li a{
+    transition: all linear .3s;
+}
+.main_menu_bar ul li a:hover{
+    color: #FF9600 !important;
+
+}
+.main_menu_bar{
+    padding:20px 0 !important ;
+    background: red;
+}
+.main_menu_bar ul {
+    gap: 45px;
+}
+.menu ul li a{
+    color: #F6F0F0;
+}
+
+
+
+
+/* ========================== navbar css part end here ====================================== */
+/* ========================== banner css part start here ====================================== */
+#banner_part_start{
+    background-image: url(../images/header.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 240px;
+    padding-bottom: 212px;
+    position: relative;
+}
+.head_part h1{
+    color: #FFFFFF;
+    font-family: var(--font-ibm);
+    font-size: 72px;
+    font-weight: bold;
+    text-align:  center;
+}
+.head_btn{
+    display: flex;
+    justify-content: center;
+    gap: 57px;
+    padding-top: 48px;
+   
+}
+.bottom_white_shadow img{
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 100%;
+}
+
+/* ========================== banner css part end here ====================================== */
 /* ========================== common css part start here ====================================== */
 /* ========================== common css part end here ====================================== */
 /* ========================== common css part start here ====================================== */
