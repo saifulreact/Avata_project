@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');/* ========================== common css part start here ====================================== */
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+
 /* ========================== common css part  here ====================================== */
 
 
@@ -25,6 +29,9 @@ h1,h2,h3,h4,h5,h6,p{
 
 :root{
     --font-ibm: "IBM Plex Sans", sans-serif;
+    --font-crusive:"Yellowtail", cursive;
+    --font-inter:"Inter", sans-serif;
+    --font-arizona:"Arizonia", cursive;
 }
 
 .common_btn a{
@@ -51,6 +58,10 @@ a{
 /* ========================== navbar css part start here ====================================== */
 .main_menu_bar ul li a{
     transition: all linear .3s;
+    color: #F6F0F0 !important;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--font-ibm);
 }
 .main_menu_bar ul li a:hover{
     color: #FF9600 !important;
@@ -58,7 +69,11 @@ a{
 }
 .main_menu_bar{
     padding:20px 0 !important ;
-    background: red;
+   top: 0;
+   left: 0;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
 }
 .main_menu_bar ul {
     gap: 45px;
@@ -80,6 +95,12 @@ a{
     padding-top: 240px;
     padding-bottom: 212px;
     position: relative;
+    min-height: 100vh;
+}
+.head_part{
+    margin:0 auto;
+    width: 819px;
+
 }
 .head_part h1{
     color: #FFFFFF;
@@ -95,18 +116,208 @@ a{
     padding-top: 48px;
    
 }
+
 .bottom_white_shadow img{
     position: absolute;
-    top: 90%;
+    top: 97%;
     left: 0;
     width: 100%;
+    height: 80px;
 }
 
 /* ========================== banner css part end here ====================================== */
-/* ========================== common css part start here ====================================== */
-/* ========================== common css part end here ====================================== */
-/* ========================== common css part start here ====================================== */
-/* ========================== common css part end here ====================================== */
+/* ========================== Embarkman_part css part start here ====================================== */
+#embarment_part{
+    background: #E5E5E5;
+    width: 100%;
+    min-height: 100vh;
+}
+.embar_middle {
+    padding-top: 23px;
+    padding-bottom: 16px;
+}
+.monir{
+    width: 83px;
+    height: 1px;
+    background: #000000;
+    margin: 29px 0;
+}
+.text_col p{
+    font-size: 18px;
+    font-family: var(--font-ibm);
+    color: #000000;
+    width: 597px;
+    font-weight: 400;
+}
+.circle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #C4C4C4;
+}
+
+
+.embar_middle .text_col h6{
+    font-size: 30px;
+    color: #49C4F5;
+    font-weight: 400;
+    font-family: var(--font-crusive);
+    padding-top: 128px;
+    padding-bottom: 4px;
+}
+.embar_middle .text_col h2{
+    font-size: 54px;
+    font-family: var(--font-ibm);
+    font-weight: bold;
+    color: #222222;
+}
+
+.gap_part{
+    display: flex;
+    gap: 12px;
+}
+.lest_part{
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    margin-top: 33px;
+    margin-bottom: 44px;
+}
+
+.discover_btn a{
+    font-size: 18px;
+    font-family: var(--font-ibm);
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 20px 35px;
+    background: #FF9600;
+    border-radius: 8px;
+}
+.mid_img{
+    margin-top: 105px;
+}
+/* here in image part i have problem   .mid_img{
+    display: flex;
+    gap: 50px;
+} */
+ .counter_part_start{
+    padding: 100px 0;
+ }
+
+.single_counter{
+    width: 312px;
+    height: 150px;
+    background: #FFF4E5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.threek{
+    background: #E7FDE9;
+}
+.fifteenk{
+    background: #F2F2FD;
+}
+.single_counter h3{
+    font-size: 80px;
+    font-family: var(--font-ibm);
+    font-weight: bold;
+    color: #000000;
+}
+.single_counter p{
+    font-size: 18px;
+    font-family: var(--font-ibm);
+    font-weight: 400;
+    color: #000000;
+}
+/* ========================== Embarkman_part css part end here ====================================== */
+/* ========================== extreme_part css part start here ====================================== */
+#extreme_part_id{
+    background: #0C3543;
+    width: 100%;
+    height: 100vh;
+}
+.extremeMan{
+
+}
+.extremeMan h6{
+    padding-top: 100px;
+    font-size: 30px;
+    font-family: var(--font-crusive);
+    font-weight: 400;
+    color: #FF960B;
+}
+.extreme_card_part_start{
+    padding-top: 74px;
+    background: #0C3543;
+   
+}
+
+.extremeMan h2{
+    font-size: 54px;
+    font-family: var(--font-ibm);
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 22px;
+}
+.hmline{
+    width: 81px;
+    height: 3px;
+    background: #C4C4C4;
+}
+.ekf p{
+    font-family: var(--font-ibm);
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    display: flex;
+    padding-top: 188px;
+    width: 622px;
+}
+.img_cart_col{
+    background: #0F4152;
+
+        border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.boton_img{
+    text-align: center;
+    padding-top: 36px;
+    padding-bottom: 45px;
+}
+.boton_img h5{
+    font-family: var(--font-inter);
+    font-size: 30px;
+    font-weight: 800;
+    color: #FF9600;
+}
+.boton_img p{
+    font-size: 18px;
+    font-family: var(--font-inter);
+    font-weight: 400;
+    color: #FFFFFF;
+    padding-top: 15px;
+
+}
+.img_cart_col img{
+    width: 100%;
+}
+.sports_part h5{
+    font-family: var(--font-arizona);
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 160px;
+    text-align: center;
+
+}
+#sportsid{
+    width: 100%;
+    min-height: 100vh;
+    background: #0C3543;
+}
+/* ========================== extreme_part css part end here ====================================== */
 /* ========================== common css part start here ====================================== */
 /* ========================== common css part end here ====================================== */
 /* ========================== common css part start here ====================================== */
