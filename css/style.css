@@ -239,7 +239,13 @@ a{
     height: 100vh;
 }
 .extremeMan{
+    position: relative;
 
+}
+.carimg img{
+    position: absolute;
+    top: 100%;
+    left: 0;
 }
 .extremeMan h6{
     padding-top: 100px;
@@ -317,9 +323,40 @@ a{
     min-height: 100vh;
     background: #0C3543;
 }
+.img_div{
+    display: flex;
+    justify-content: center;
+}
+.img_div img{
+    width: 772px;
+   margin: 110px 0;
+
+}
 /* ========================== extreme_part css part end here ====================================== */
-/* ========================== common css part start here ====================================== */
-/* ========================== common css part end here ====================================== */
+/* ========================== club  css part start here ====================================== */
+#club_part{
+    background: #FF9600;
+    width: 100%;
+    height: 100vh;
+    margin-top: 47px;
+}
+.white_img img{
+    width: 103px;
+    
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.fasor a{
+
+}
+.sdkf{
+    background-image: url(../images/extreme-sports-videos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* ========================== club  css part end here ====================================== */
 /* ========================== common css part start here ====================================== */
 /* ========================== common css part end here ====================================== */
 /* ========================== common css part start here ====================================== */
